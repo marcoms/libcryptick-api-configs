@@ -1,0 +1,13 @@
+{
+	"name": "MintPal"
+	, "url": ["https://api.mintpal.com/v2/market/stats/", "{c}", "/", "{e}"]
+	, "status_success": "success"
+	, "number_format": "string"
+	, "paths": {
+		"code": ["data", "code"]
+		, "status": ["status"]
+		, "status_desc": ["message"]
+		, "buy": ["data", "top_ask"]
+		, "sell": ["data", "top_bid"]
+	}
+}
