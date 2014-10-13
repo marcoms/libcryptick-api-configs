@@ -1,0 +1,9 @@
+{
+	"name": "BTC-E"
+	, "url": ["https://btc-e.com/api/2/", "{e}", "_", "{c}", "/ticker"]
+	, "number_format": "real"
+	, "paths": {
+		"buy": ["ticker", "buy"]
+		, "sell": ["ticker", "sell"]
+	}
+}

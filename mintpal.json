@@ -4,8 +4,7 @@
 	, "status_success": "success"
 	, "number_format": "string"
 	, "paths": {
-		"code": ["data", "code"]
-		, "status": ["status"]
+		"status": ["status"]
 		, "status_desc": ["message"]
 		, "buy": ["data", "top_ask"]
 		, "sell": ["data", "top_bid"]
